@@ -290,6 +290,8 @@ input[type="text"] {
   transition: var(--transition-fast);
   border-radius: 0;
   letter-spacing: 0.02em;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 input[type="text"]:focus {
