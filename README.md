@@ -1,23 +1,22 @@
-# Glory Power
+# 王者荣耀战力查询
 
-A minimalist web tool to query hero power statistics from Honor of Kings (王者荣耀).
+一个简洁的战力查询工具。
 
-## Features
+## 功能
 
-- Search hero power statistics across different servers
-- Support for multiple platforms (QQ, WeChat, Android, iOS)
-- Dark mode support (auto-detected from system preference)
-- Clean, minimalist design
+- 支持多区服查询（QQ 微信 / 安卓 iOS）
+- 自动跟随系统深色模式
+- 极简设计风格
 
-## Usage
+## 使用方式
 
-Open `index.html` in a browser to use the tool.
+直接在浏览器中打开 `index.html` 即可使用。
 
-## Tech Stack
+## 技术栈
 
-- Vanilla HTML/CSS/JavaScript
-- No external dependencies
+- 原生 HTML / CSS / JavaScript
+- 无外部依赖
 
-## License
+## 开源协议
 
 MIT
