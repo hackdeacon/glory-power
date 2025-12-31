@@ -17,6 +17,10 @@
 - 原生 HTML / CSS / JavaScript
 - 无外部依赖
 
+## 数据来源
+
+数据来源于 [xxoo.team](https://xxoo.team/) API，侵删。
+
 ## 开源协议
 
 MIT
