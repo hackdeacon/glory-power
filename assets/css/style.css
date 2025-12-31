@@ -613,6 +613,7 @@ input[type="text"]:-webkit-autofill:focus {
   font-size: 8px;
   color: var(--text-dim);
   letter-spacing: 0.25em;
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
 }
 
 .footer a {
