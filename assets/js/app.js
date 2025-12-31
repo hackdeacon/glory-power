@@ -1,6 +1,36 @@
 let currentType = 'aqq';
 const defaultImg = 'https://game.gtimg.cn/images/yxzj/img201606/heroimg/167/167.jpg';
 
+// Prevent auto-zoom on input focus for iOS/WeChat browsers
+function preventAutoZoom() {
+  const isWeChat = /MicroMessenger/i.test(navigator.userAgent);
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+
+  if (isWeChat || isIOS) {
+    const inputs = document.querySelectorAll('input[type="text"]');
+
+    inputs.forEach(input => {
+      // Prevent zoom on focus
+      input.addEventListener('focus', (e) => {
+        // Temporarily disable viewport zoom
+        const viewport = document.querySelector('meta[name="viewport"]');
+        if (viewport) {
+          const originalContent = viewport.getAttribute('content');
+          viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
+
+          // Restore after blur
+          input.addEventListener('blur', () => {
+            viewport.setAttribute('content', originalContent);
+          }, { once: true });
+        }
+      });
+    });
+  }
+}
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', preventAutoZoom);
+
 // Platform selection
 document.getElementById('platformGrid').addEventListener('click', (e) => {
   const btn = e.target.closest('.platform-btn');
