@@ -1,0 +1,5 @@
+# OS and Editor
+.DS_Store
+*.swp
+*.swo
+*~
