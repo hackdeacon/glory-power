@@ -10,7 +10,7 @@
 
 ## 使用方式
 
-直接在浏览器中打开 [`index.html`](https://k.600025.xyz/) 即可使用。
+直接在浏览器中打开 [index.html](https://pvp.hackstory.cn/) 即可使用。
 
 ## 技术栈
 
