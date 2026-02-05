@@ -613,14 +613,15 @@ input[type="text"]:-webkit-autofill:focus {
 .footer {
   margin-top: auto;
   padding-top: 48px;
-  font-size: 8px;
-  color: var(--text-dim);
-  letter-spacing: 0.25em;
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.2em;
   font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
+  font-weight: 500;
 }
 
 .footer a {
-  color: var(--text-dim);
+  color: var(--text-muted);
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -871,14 +872,14 @@ input[type="text"]:-webkit-autofill:focus {
     position: relative;
     bottom: auto;
     padding: 60px 20px 40px 20px;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 0;
     transition: opacity 0.6s ease;
     flex-shrink: 0;
   }
 
   body.has-result .footer {
-    opacity: 0.4;
+    opacity: 0.7;
   }
 }
 
