@@ -951,6 +951,29 @@ input[type="text"]:-webkit-autofill:focus {
   }
 }
 
+/* Desktop Scale Up */
+@media (min-width: 1400px) {
+  body {
+    padding: 56px 24px;
+  }
+
+  .container {
+    transform: scale(1.12);
+    transform-origin: center top;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    padding: 72px 24px;
+  }
+
+  .container {
+    transform: scale(1.25);
+    transform-origin: center top;
+  }
+}
+
 /* Smooth appear animation */
 @keyframes fadeInUp {
   from {
