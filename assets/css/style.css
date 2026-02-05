@@ -614,14 +614,14 @@ input[type="text"]:-webkit-autofill:focus {
   margin-top: auto;
   padding-top: 48px;
   font-size: 11px;
-  color: var(--text-muted);
+  color: var(--text-dim);
   letter-spacing: 0.2em;
   font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
   font-weight: 500;
 }
 
 .footer a {
-  color: var(--text-muted);
+  color: var(--text-dim);
   text-decoration: none;
   transition: color 0.3s ease;
 }
